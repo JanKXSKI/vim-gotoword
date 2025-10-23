@@ -13,9 +13,9 @@ augroup END
 
 function! s:NMMSL() abort
     if &background ==# 'dark'
-        highlight NMSL ctermfg=Grey guifg=Black guibg=Yellow cterm=bold gui=bold
+        highlight NMSL ctermfg=DarkGrey guifg=Black guibg=Yellow cterm=bold gui=bold
     else
-        highlight NMSL ctermfg=Grey guifg=White guibg=Red cterm=bold gui=bold
+        highlight NMSL ctermfg=DarkGrey guifg=White guibg=Red cterm=bold gui=bold
     endif
 endfunction
 
